@@ -1,6 +1,8 @@
 import { h, Component } from 'preact';
 import style from './style';
 
+import Footer from '../../components/footer';
+
 export default class Profile extends Component {
 	state = {
 		time: Date.now(),
@@ -41,6 +43,7 @@ export default class Profile extends Component {
 					{' '}
 					Clicked {count} times.
 				</p>
+				<Footer />
 			</div>
 		);
 	}

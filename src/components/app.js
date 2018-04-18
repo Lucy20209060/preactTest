@@ -18,6 +18,7 @@ export default class App extends Component {
 	 */
 	handleRoute = e => {
 		this.currentUrl = e.url;
+		console.log(e)
 	};
 
 	render() {
